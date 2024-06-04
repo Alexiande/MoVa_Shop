@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MoVa" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/pink</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/grey_one</item>
+        <item name="colorOnSecondary">@color/accent</item>
+        <item name="background">@drawable/cat</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="chipStyle">@style/choiceChip</item>
+        <item name="android:fontFamily">@font/dm_sans</item>
+    </style>
+
+    <style name="choiceChip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/chip_state_list</item>
+        <item name="android:textColor">@color/chip_text_state_list</item>
+    </style>
+
+    <style name="roundedCornersImageView" parent="">
+        <item name="backgroundColor">@color/grey_one</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">8dp</item>
+    </style>
+
+</resources>
